@@ -1,0 +1,12 @@
+IOReplace:
+  "OldModule": "NewModule"
+SheetTypes: ["TypeA", "TypeB"]
+ModuleTypes:
+  "TypeA": {name: "ModuleA", type: "TypeA"}
+IODocument:
+  Header:
+    DocumentTitle: "Hardware Configuration Report"
+    DocumentNumber: "DOC1234"
+    RevisionNumber: "1.0"
+    RevisionDate: "2024-10-31"
+  ColumnNames: ["Device Name", "Description", "Type", "DP Address", "Symbol"]
